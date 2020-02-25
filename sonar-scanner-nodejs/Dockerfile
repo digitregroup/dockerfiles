@@ -15,7 +15,7 @@ RUN set -eux; \
 # Default to UTF-8 file.encoding
 ENV LANG C.UTF-8
 
-ENV JAVA_HOME /usr/java/openjdk-15
+ENV JAVA_HOME /usr/java/openjdk-13
 ENV PATH $JAVA_HOME/bin:$PATH
 
 # backwards compatibility shim
