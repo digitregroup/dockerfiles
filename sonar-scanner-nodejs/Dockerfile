@@ -7,6 +7,8 @@ RUN set -eux; \
 	    ca-certificates p11-kit \
 	    # tools for installing sonar-scanner
         unzip wget \
+        # various usage tools
+        git \
 	; \
 	rm -rf /var/lib/apt/lists/*
 
